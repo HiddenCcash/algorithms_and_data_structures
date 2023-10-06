@@ -1,6 +1,5 @@
-# Prerequisites
-*.d
-
+# Created by https://www.gitignore.io/api/c++
+### C++ ###
 # Compiled Object files
 *.slo
 *.lo
@@ -18,7 +17,6 @@
 
 # Fortran module files
 *.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
@@ -30,3 +28,13 @@
 *.exe
 *.out
 *.app
+
+#build director
+build/
+
+#vim backup
+*.cpp~
+*~
+
+#VS code
+.vscode
